@@ -1,0 +1,12 @@
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+dist/
+build/
+output/
+output_pass2/
+*.yaml
+!sample_fortigate.conf
+.venv/
+.env
