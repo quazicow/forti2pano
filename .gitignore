@@ -61,3 +61,6 @@ pip-delete-this-directory.txt
 
 # mypy / type checking
 .mypy_cache/
+
+# Claude Code
+.claude/
