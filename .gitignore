@@ -1,12 +1,63 @@
+# Python
 __pycache__/
 *.pyc
 *.pyo
+*.pyd
+*.egg
 *.egg-info/
+*.eggs/
 dist/
 build/
-output/
-output_pass2/
-*.yaml
-!sample_fortigate.conf
+sdist/
+*.whl
+
+# Virtual environments
 .venv/
+venv/
+env/
+ENV/
+
+# IDE / editors
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.settings/
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Environment / secrets
 .env
+.env.*
+
+# forti2pano output directories
+output/
+output_*/
+
+# Converter decision files (user-generated, may contain site-specific data)
+decisions.yaml
+decisions_*.yaml
+
+# FortiGate configs (may contain sensitive data — add explicitly if needed)
+*.conf
+!sample_fortigate.conf
+
+# Testing / coverage
+.pytest_cache/
+.coverage
+htmlcov/
+*.cover
+
+# Distribution / packaging
+*.manifest
+*.spec
+pip-log.txt
+pip-delete-this-directory.txt
+
+# mypy / type checking
+.mypy_cache/
